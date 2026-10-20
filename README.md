@@ -1,24 +1,24 @@
-﻿# Nancy Calendar â€” releases (Android + Windows)
+# Nancy Calendar — releases (Android + Windows)
 
-Repo nÃ y **chá»‰** chá»©a báº£n phÃ¡t hÃ nh cá»§a á»©ng dá»¥ng Nancy Calendar. KhÃ´ng cÃ³ mÃ£ nguá»“n.
-Má»—i báº£n phÃ¡t hÃ nh Ä‘Æ°á»£c build, kÃ½ vÃ  táº£i lÃªn tá»± Ä‘á»™ng bá»Ÿi GitHub Actions. Má»—i Release `vX.Y.Z`
-chá»©a báº£n cho má»i ná»n táº£ng cá»§a cÃ¹ng má»™t phiÃªn báº£n.
+Repo này **chỉ** chứa bản phát hành của ứng dụng Nancy Calendar. Không có mã nguồn.
+Mỗi bản phát hành được build, ký và tải lên tự động bởi GitHub Actions. Mỗi Release X.Y.Z
+chứa bản cho mọi nền tảng của cùng một phiên bản.
 
 ## Android
 
-VÃ o [Releases má»›i nháº¥t](https://github.com/NancyTeck/nancy-calendar-releases/releases/latest),
-táº£i file `Nancy-Calendar-vX.Y.Z.apk` trÃªn Ä‘iá»‡n thoáº¡i Android vÃ  má»Ÿ Ä‘á»ƒ cÃ i Ä‘áº·t.
+Vào [Releases mới nhất](https://github.com/NancyTeck/nancy-calendar-releases/releases/latest),
+tải file Nancy-Calendar-vX.Y.Z.apk trên điện thoại Android và mở để cài đặt.
 
-á»¨ng dá»¥ng tá»± kiá»ƒm tra báº£n má»›i qua `version.json` cá»§a release má»›i nháº¥t
-(CÃ i Ä‘áº·t â†’ Giá»›i thiá»‡u â†’ Kiá»ƒm tra cáº­p nháº­t).
+Ứng dụng tự kiểm tra bản mới qua ersion.json của release mới nhất
+(Cài đặt → Giới thiệu → Kiểm tra cập nhật).
 
 ## Windows 10/11
 
-Táº£i `Nancy-Calendar-Windows-vX.Y.Z-Setup.exe` (khuyáº¿n nghá»‹ â€” cÃ i cho ngÆ°á»i dÃ¹ng hiá»‡n táº¡i, khÃ´ng cáº§n
-quyá»n admin) hoáº·c `Nancy-Calendar-Windows-vX.Y.Z.msi` (cÃ i cho cáº£ mÃ¡y).
+Tải Nancy-Calendar-Windows-vX.Y.Z-Setup.exe (khuyến nghị — cài cho người dùng hiện tại, không cần
+quyền admin) hoặc Nancy-Calendar-Windows-vX.Y.Z.msi (cài cho cả máy).
 
-Installer chÆ°a kÃ½ Authenticode nÃªn Windows SmartScreen cÃ³ thá»ƒ cáº£nh bÃ¡o: chá»n **More info â†’ Run anyway**.
-Báº£n cáº­p nháº­t Ä‘Æ°á»£c xÃ¡c minh báº±ng chá»¯ kÃ½ updater (Tauri/minisign) trÆ°á»›c khi cÃ i; app tá»± kiá»ƒm tra báº£n má»›i
-qua `latest.json` cá»§a release má»›i nháº¥t (CÃ i Ä‘áº·t â†’ Giá»›i thiá»‡u â†’ Kiá»ƒm tra cáº­p nháº­t).
+Installer chưa ký Authenticode nên Windows SmartScreen có thể cảnh báo: chọn **More info → Run anyway**.
+Bản cập nhật được xác minh bằng chữ ký updater (Tauri/minisign) trước khi cài; app tự kiểm tra bản mới
+qua latest.json của release mới nhất (Cài đặt → Giới thiệu → Kiểm tra cập nhật).
 
-Kiá»ƒm tra file táº£i vá»: so SHA-256 vá»›i `SHA256SUMS-Windows.txt` trong release.
+Kiểm tra file tải về: so SHA-256 với SHA256SUMS-Windows.txt trong release.
